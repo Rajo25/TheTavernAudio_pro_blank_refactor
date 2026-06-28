@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d81c6a6e-29ed-47a5-b953-9178655d23b9}">
+		<property name="assetPath">
+			<value>Spell_Maintain_LOOP.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9963b339-11bb-46a2-a204-02ca864042a0}</destination>
+		</relationship>
+	</object>
+</objects>

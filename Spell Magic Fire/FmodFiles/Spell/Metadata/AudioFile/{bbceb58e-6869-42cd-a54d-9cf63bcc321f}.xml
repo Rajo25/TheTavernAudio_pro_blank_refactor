@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{bbceb58e-6869-42cd-a54d-9cf63bcc321f}">
+		<property name="assetPath">
+			<value>Spell_Startt_ToLOOP.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.6227916666666671</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9963b339-11bb-46a2-a204-02ca864042a0}</destination>
+		</relationship>
+	</object>
+</objects>

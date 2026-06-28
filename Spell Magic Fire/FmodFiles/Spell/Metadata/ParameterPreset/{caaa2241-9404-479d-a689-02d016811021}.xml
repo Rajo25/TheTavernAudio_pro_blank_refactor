@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{caaa2241-9404-479d-a689-02d016811021}">
+		<property name="name">
+			<value>Spell</value>
+		</property>
+		<relationship name="folder">
+			<destination>{829b682d-b3e1-40ba-bd2d-a5d9093c6445}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{92d0bb69-e938-4834-a9f8-18f26cdb558e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{92d0bb69-e938-4834-a9f8-18f26cdb558e}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Loop</value>
+			<value>Realease</value>
+			<value>Cancel</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

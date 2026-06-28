@@ -291,7 +291,7 @@ public class AudioSystem : MonoBehaviour
     public void SpellCast()
     {
         SpellSound = RuntimeManager.CreateInstance(spellEvent);
-        SpellSound.setParameterByNameWithLabel("Spell", "Looping");
+        SpellSound.setParameterByNameWithLabel("Spell", "Loop");
         SpellSound.start();
     }
 

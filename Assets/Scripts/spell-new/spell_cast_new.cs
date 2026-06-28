@@ -165,7 +165,6 @@ public class spell_cast_new : MonoBehaviour
             if (isAudioInitialized)
             {
                 audioSystem.SpellCancel(); 
-                audioSystem.SpellRelease();
             }
                 
             

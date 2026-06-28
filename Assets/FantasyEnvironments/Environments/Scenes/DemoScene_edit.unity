@@ -1385,6 +1385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
   attenuationObject: {fileID: 0}
 --- !u!114 &237163392
 MonoBehaviour:
@@ -2412,12 +2413,12 @@ MonoBehaviour:
       Data4: 675919702
     Path: event:/Music_2
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -2984,12 +2985,12 @@ MonoBehaviour:
       Data4: -793358619
     Path: event:/Forest ambient
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -3775,11 +3776,11 @@ MonoBehaviour:
     Path: event:/Footsteps/Land
   spellEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1333183012
+      Data2: 1096972320
+      Data3: -1786884940
+      Data4: 1633979750
+    Path: event:/Spell
   spellImpactEvent:
     Guid:
       Data1: 0
@@ -4183,12 +4184,12 @@ MonoBehaviour:
       Data4: 145313662
     Path: event:/Music
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -4214,12 +4215,12 @@ MonoBehaviour:
       Data4: 8083909
     Path: event:/Tavern ambient
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
@@ -6853,12 +6854,12 @@ MonoBehaviour:
       Data4: 8083909
     Path: event:/Tavern ambient
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
-  AllowNonRigidbodyDoppler: 0
+  NonRigidbodyVelocity: 0
   Params: []
   OverrideAttenuation: 1
   OverrideMinDistance: 1
